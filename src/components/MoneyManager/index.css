@@ -1,0 +1,106 @@
+.money-manager {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TransactionInput {
+  border: 2px solid black;
+  width: 43vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 30px;
+}
+.dateLabel {
+  font-size: 20px;
+  font-weight: 750;
+}
+.dateInput {
+  height: 30px;
+  width: 410px;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 5px;
+}
+
+.type {
+  width: 310px;
+}
+
+.amount {
+  width: 330px;
+}
+.input-container {
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 18px;
+  font-weight: 650;
+  margin-left: 5px;
+  padding: 12px;
+}
+
+.descriptionTextarea {
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.saveButton {
+  background-color: blue;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 4px;
+  margin-right: 10px;
+  width: 70px;
+  border-radius: 5px;
+  height: 30px;
+}
+.saveButton:hover {
+  background-color: green;
+  color: black;
+}
+
+.cancleButton {
+  font-size: 15px;
+  font-weight: bold;
+  border: 2px solid black;
+  padding: 4px;
+  width: 70px;
+  margin-left: 5px;
+  margin-right: 50px;
+  border-radius: 5px;
+  height: 30px;
+}
+
+.cancleButton:hover {
+  background-color: red;
+  color: white;
+}
+
+.buttonContainer {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: end;
+}
+
+.transaction-list {
+  border: 2px solid black;
+  width: 46vw;
+  margin-top: 25px;
+}
+
+.tableHead {
+  border-right: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.noTransactionPara {
+  font-size: 20px;
+  font-weight: bold;
+}
